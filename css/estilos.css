@@ -361,12 +361,14 @@ footer img {
 
 /* MEDIA QUERIES */
 /*Tablet*/
-/*Portrait*/
 @media (min-width: 321px) and (max-width: 768px) and (orientation:portrait) {
+
+  /*MEDIA TABLET NAVBAR */
   .navbarMenu li {
     font-size: 0.5rem;
     padding: 2% 1% 2% 1%;
   }
+  /*MEDIA TABLET INFO */
   .bannerInfo {
     background-image: url(../imagen/game-bg.jpg);
     height: 10%;
@@ -398,22 +400,18 @@ footer img {
   .videoYoutube {
     margin: 3%;
   }
-/* MEDIA QUERIES CARACTERISTICAS */
- 
+/*MEDIA TABLET CARACTERISTICAS*/ 
 .titulo{
   text-align: center;
   font-size: 1.5rem;
   padding-top: 3%;
   margin: 0%;
 }
-
 .caracteristicas{
   flex-direction: column;
 }
-
 .rightCaracteristica{
   flex-direction: column;
-
 }
 .leftCaracteristica{
   flex-direction: column;
@@ -422,7 +420,6 @@ footer img {
   padding: 3%;
   font-size: 0.7rem;
 }
-
 .imagenCaracteristica{
   padding:3%;
 } 
@@ -431,7 +428,7 @@ footer img {
   height: 100%;
   border-radius: 50%;
 }
-/* MEDIA QUERIES EQUIPÓ */
+/* MEDIA TABLET EQUIPÓ */
 .equipo{
   background-image: none;
   height: 100%;
@@ -469,17 +466,24 @@ footer img {
   margin-bottom: 10%;
   width: 200px;
   height: 200px;
-
+}
+/* MEDIA TABLET REGISTRO */
+form {
+  width: 90%;
+}
+.formLabel {
+  font-size: 0.8rem;
 }
 }
-
 /*movil*/
 /*Portrait*/
 @media (max-width:320px)and (orientation:portrait) {
+  /* MEDIA MOVIL NAV */
   .navbarMenu li {
-    font-size: 0.5rem;
+    font-size: 0.4rem;
     padding: 2% 1% 2% 1%;
   }
+  /* MEDIA MOVIL INFO */
   .bannerInfo {
     background-image: url(../imagen/game-bg.jpg);
     height: 200px;
@@ -513,22 +517,18 @@ footer img {
   .videoYoutube {
     margin: 3%;
   }
-/* MEDIA QUERIES CARACTERISTICAS */
- 
+/* MEDIA MOVIL CARACTERISTICAS */
 .titulo{
   text-align: center;
   font-size: 1.5rem;
   padding-top: 3%;
   margin: 0%;
 }
-
 .caracteristicas{
   flex-direction: column;
 }
-
 .rightCaracteristica{
   flex-direction: column;
-
 }
 .leftCaracteristica{
   flex-direction: column;
@@ -537,7 +537,6 @@ footer img {
   padding: 3%;
   font-size: 0.7rem;
 }
-
 .imagenCaracteristica{
   padding:3%;
 } 
@@ -546,7 +545,7 @@ footer img {
   height: 100%;
   border-radius: 50%;
 }
-/* MEDIA QUERIES EQUIPÓ */
+/* MEDIA MOVIL EQUIPÓ */
 .equipo{
   background-image: none;
   height: 100%;
@@ -563,7 +562,6 @@ footer img {
   justify-content: center;
   align-items: center;
 }
-
 .miembros h2{
   padding-bottom: 10%;
   font-size: 0.8rem;
@@ -585,13 +583,10 @@ footer img {
   width: 200px;
   height: 200px;
 }
-
-/* INFO */
-
+/*MEDIA MOVIL TABLA */
 .informacion{
   padding-top: 10%;
   padding-bottom: 10%;
-
 }
 .conteinerTableInauguracion{
   background-color: rgba(255, 255, 255);
@@ -599,32 +594,26 @@ footer img {
   box-shadow: 0 0 10px #333;
   font-size: 0.7rem;
 }
-
 .tableTitleInauguracion{
   font-size: 1rem;
 }
-
 .conteinerTableMemb{
   margin: 1% auto 10%;
   font-size: 0.7rem;
-
 }
 .tableTitleMemb{
   font-size: 1rem;
   border: 0.5px solid #333;
-
 }
 .tableHeader{
-  font-size: 0.55rem;
-
+  font-size: 0.4rem;
 }
 .tableTitleCol{
-  font-size: 0.55rem;
+  font-size: 0.45rem;
 }
 .tableItem{
-  font-size: 0.55rem;
+  font-size: 0.4rem;
 }
-
 .button {
   width: 60%;
   margin: 2% auto;
@@ -635,5 +624,13 @@ footer img {
 .button:hover {
   background-color: #e21700;
   color: white;
+}
+
+/* MEDIA MOVIL REGISTRO */
+form {
+  width: 90%;
+}
+.formLabel {
+  font-size: 0.8rem;
 }
 }
