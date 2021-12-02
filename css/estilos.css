@@ -11,34 +11,9 @@ a {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
-.navbar{
-  background-color: #212324;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 5%;
-  align-items: center;
-}
-.navbarLogo{
-  display: flex;
-}
-.navbarLogo img {
-  height: 100%;
-  width: 70%;
-}
 
-.navbarMenu ul {
-  display: flex;
-  list-style-type: none;
 
-}
-.navbarMenu li {
-  display: flex;
-  font-size: 0.8rem;
-  padding: 0 2% 0 2%;
-}
-.navbarMenu li a:hover{
-  color: #e21700 ;
-}
+
 
 /* INICIO */
 
@@ -392,7 +367,7 @@ footer img {
   }
   .textVideo {
     color: rgb(247, 247, 247);
-    font-size: 1.5rem;
+    font-size: 1.5grem;
     margin: 3%;
     text-align: justify;
   
