@@ -49,6 +49,7 @@ a {
   font-size: 1.9rem;
   margin: 3%;
   text-align: justify;
+  width: 100%;
 
 }
 .videoYoutube {
@@ -65,6 +66,7 @@ a {
   font-size: 2rem;
   padding-top: 3%;
   margin: 0%;
+  margin-bottom:3%;
 }
 
 .caracteristicas{
@@ -99,7 +101,8 @@ a {
 
 /* EQUIPO */
 
-.equipo{
+
+/* .equipo{
   background-image: url(../imagen/team-bg.jpg);
   height: 100%;
   width: 100%;
@@ -113,34 +116,42 @@ a {
 .miembros{
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content:space-around;
+  align-items: center;
 }
 
 .miembros h2{
-  text-align: center;
-  padding-bottom: 10%;
+  width: 100%;
   color: #bb1907;
   font-size: 2rem;
+  text-align: center;
 }
 .miembros p{
-  text-align: center;
+  width: 100%;
   font-size: 1.2rem;
   font-style: italic;
   color: #ffffff;
+  text-align: center;
 }
 .perfil{
-  padding: 3%
+  width: 70%;
+  padding-left: 3%;
 }
-.avatarImagen {
+
+.perfil img {
+  width: 80%;
   border-radius: 50%;
   color: black;
   margin-bottom: 10%;
-}
+  align-items: center;
+  justify-content: center;
+} */
 
 /* INFO */
 
 .informacion{
   background-color: #d8d7ed;
+  margin-top: 3%;
   padding-top: 1%;
   padding-bottom: 1%;
 }
