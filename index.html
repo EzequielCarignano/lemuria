@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/estilos.css">
   </head>
   <body>
+    <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html"><img src="./imagen/logo.png" alt="logo inicio" ></a>
@@ -36,65 +37,68 @@
             </ul>
           </div>
         </div>
-      </nav>
-     
+      </nav>     
     </header>
     <!-- IMAGEN PRESENTACIÒN-->
-  <div class="conteiner">
+  <div class="conteiner-fluid">
     <div class="bannerInfo">
       <img src="./imagen/logo-bg.png" alt="logo" class="logoBg">
     </div>
     <!-- VIDEO INFORMATIVO -->
     <div class="info">
-      <div class="ratio ratio-16x9">         
+      <div class="ratio ratio-16x9 m-3">         
         <iframe width="700" height="500" src="https://www.youtube.com/embed/x4Aglp7ue5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-      <div class="textVideo">
+      <div class="textVideo m-3">
           <p>La revolucionaria experiencia NFT comienza ahora, unete a Lemuria, nuestro juego esta basado en las leyendas de los continentes perdidos de Mu y Lemuria, inicia creando tu personaje, lucha contra el entorno y avanza por los diferentes mundos y desafios que preparamos para ti. Lo mejor de todo? Podras obtener items NFT dentro del juego que podras utilizar para potenciar tu personaje o venderlos por nuestro token LMU en el mercado del juego, obten grandes beneficios, diviertete, explora, GANA DINERO y comienza tu aventura!</p>
       </div>
     </div>
   </div>
     <!-- CARACTERISTICAS -->
-    <div id="caracteristicas" class="caracteristicas">
-      <h1 class="titulo">CARACTERISTICAS</h1>
-      <article class="rightCaracteristica">
-      <div  class="imagenCaracteristica">
-      <img src="./imagen/exploracion.jpg" alt="sistema de exploraciòn" />
+    <div id="caracteristicas" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#caracteristicas" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#caracteristicas" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#caracteristicas" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-      <div class= "textoCaracteristica">
-        <h2 >SISTEMA DE EXPLORACIÒN</h2>
-        <p>
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda recusandae pariatur obcaecati accusamus reprehenderit vero incidunt aut, dolorum asperiores ratione quaerat eos totam voluptatem facere ad nam necessitatibus placeat mollitia aspernatur quos earum voluptatibus quia architecto! Inventore non, quod placeat minima praesentium ea ex. Praesentium, officia? Voluptatum fugit fugiat dolorem ea reiciendis quae accusamus, facere ipsa eum quidem! Veritatis, iusto. Amet dolore voluptas nisi ad saepe atque ratione molestiae ducimus repellendus reprehenderit quam totam eos perspiciatis ut ex, est architecto exercitationem numquam similique, maiores tenetur vel delectus quos! Suscipit eum illum provident ea nesciunt harum maxime fuga, autem magni, placeat modi excepturi minima quam sit aut sunt delectus. Consequatur nemo consectetur eius hic delectus soluta amet esse fugit sequi? Nostrum ea, fugiat, doloribus, odit inventore dignissimos debitis quasi quia iure exercitationem voluptates similique ut ipsa animi magnam ipsum illo? Vero aspernatur beatae error magni aut numquam, fuga quisquam consequatur fugiat iure ducimus eum illum? Distinctio iure, quasi fugiat adipisci soluta qui vel aliquid expedita harum ea quod similique eveniet necessitatibus repudiandae vero cupiditate voluptas dolores fuga quaerat magnam perspiciatis corrupti. Possimus, libero. Atque voluptas ex deserunt pariatur vel similique non adipisci repudiandae voluptates porro facere sapiente iure, quaerat, soluta quos quibusdam fugit tenetur animi dignissimos, a nemo unde explicabo quo voluptatem. Fugiat dolore, unde dolorum totam accusamus veritatis. In animi saepe ullam, reiciendis, quam eos ipsam aut blanditiis molestias illum id nam quas inventore sit mollitia, dolore necessitatibus eligendi et fuga doloribus perspiciatis. Sapiente perferendis eum ratione eius ab accusamus placeat dolores tempora facilis, officiis, distinctio sit suscipit soluta libero exercitationem nesciunt saepe cumque molestias optio animi! Dolorum repellat hic quis ipsam officiis. Laborum placeat deserunt accusantium. Sit totam maiores dignissimos illo ad eius, aliquam vitae quidem repudiandae tempora molestiae nostrum ducimus deserunt, quaerat alias culpa, dolores sequi ratione numquam?"
-        </p>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./imagen/exploracion.jpg" class="d-block w-100" alt="imagen-exploracion">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>SISTEMA DE EXPLORACIÓN</h5>
+            <p>Recorre el mundo abierto de Lemuria! Lucha contra el entorno y otros jugadores para obtener recompensas. Te atreves a desafiar al enemigo? Todos tienen 
+              un mismo objetivo! 
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./imagen/conquista.jpg" class="d-block w-100" alt="imagen-conquista">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>SISTEMA DE CONQUISTA</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, incidunt voluptate! Cumque ullam sunt minima? Ullam fugiat tempore consequuntur hic eos accusamus quidem provident porro voluptas nemo? Repellendus porro molestias iusto excepturi laborum, tempore, accusantium ea obcaecati saepe aliquid autem repudiandae eum ex accusamus optio vel in. Laborum quam labore, tempora quo corrupti ipsa illum ea assumenda.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./imagen/playtoearn.jpg" class="d-block w-100" alt="imagen-playtoearn">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>PLAY TO EARN!</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum aperiam ipsam tenetur voluptatem nobis. Exercitationem fugiat quae ipsam, aliquid obcaecati ex laudantium est quibusdam suscipit alias expedita ullam excepturi, magni atque facilis voluptas? Veniam ipsum exercitationem sed, molestias rerum non reprehenderit fugiat enim nihil voluptatibus numquam at, nesciunt ipsa perferendis!</p>
+          </div>
+        </div>
       </div>
-      </article>
-    <article class= "leftCaracteristica">
-      <div class="imagenCaracteristica">
-      <img src="./imagen/conquista.jpg" alt="sistema de conquista" />
-      </div>
-      <div class="textoCaracteristica">
-      <h2 class="titulosCaracteristicas">SISTEMA DE CONQUISTA</h2>
-      <p class="pCaracteristicas">
-       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda recusandae pariatur obcaecati accusamus reprehenderit vero incidunt aut, dolorum asperiores ratione quaerat eos totam voluptatem facere ad nam necessitatibus placeat mollitia aspernatur quos earum voluptatibus quia architecto! Inventore non, quod placeat minima praesentium ea ex. Praesentium, officia? Voluptatum fugit fugiat dolorem ea reiciendis quae accusamus, facere ipsa eum quidem! Veritatis, iusto. Amet dolore voluptas nisi ad saepe atque ratione molestiae ducimus repellendus reprehenderit quam totam eos perspiciatis ut ex, est architecto exercitationem numquam similique, maiores tenetur vel delectus quos! Suscipit eum illum provident ea nesciunt harum maxime fuga, autem magni, placeat modi excepturi minima quam sit aut sunt delectus. Consequatur nemo consectetur eius hic delectus soluta amet esse fugit sequi? Nostrum ea, fugiat, doloribus, odit inventore dignissimos debitis quasi quia iure exercitationem voluptates similique ut ipsa animi magnam ipsum illo? Vero aspernatur beatae error magni aut numquam, fuga quisquam consequatur fugiat iure ducimus eum illum? Distinctio iure, quasi fugiat adipisci soluta qui vel aliquid expedita harum ea quod similique eveniet necessitatibus repudiandae vero cupiditate voluptas dolores fuga quaerat magnam perspiciatis corrupti. Possimus, libero. Atque voluptas ex deserunt pariatur vel similique non adipisci repudiandae voluptates porro facere sapiente iure, quaerat, soluta quos quibusdam fugit tenetur animi dignissimos, a nemo unde explicabo quo voluptatem. Fugiat dolore, unde dolorum totam accusamus veritatis. In animi saepe ullam, reiciendis, quam eos ipsam aut blanditiis molestias illum id nam quas inventore sit mollitia, dolore necessitatibus eligendi et fuga doloribus perspiciatis. Sapiente perferendis eum ratione eius ab accusamus placeat dolores tempora facilis, officiis, distinctio sit suscipit soluta libero exercitationem nesciunt saepe cumque molestias optio animi! Dolorum repellat hic quis ipsam officiis. Laborum placeat deserunt accusantium. Sit totam maiores dignissimos illo ad eius, aliquam vitae quidem repudiandae tempora molestiae nostrum ducimus deserunt, quaerat alias culpa, dolores sequi ratione numquam?"
-      </p>
-      </div>
-    </article>
-    <article class="rightCaracteristica">
-      <div class="imagenCaracteristica">
-      <img src="./imagen/playtoearn.jpg" alt="play to earn" />
-      </div>
-      <div class="textoCaracteristica">
-      <h2 class="titulosCaracteristicas">PLAY TO EARN - TOKEN LMU</h2>
-      <p class="pCaracteristicas">
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda recusandae pariatur obcaecati accusamus reprehenderit vero incidunt aut, dolorum asperiores ratione quaerat       eos totam voluptatem facere ad nam necessitatibus placeat mollitia aspernatur quos earum voluptatibus quia architecto! Inventore non, quod placeat minima praesentium ea ex.        Praesentium, officia? Voluptatum fugit fugiat dolorem ea reiciendis quae accusamus, facere ipsa eum quidem! Veritatis, iusto. Amet dolore voluptas nisi ad saepe atque ratione      molestiae ducimus repellendus reprehenderit quam totam eos perspiciatis ut ex, est architecto exercitationem numquam similique, maiores tenetur vel delectus quos! Suscipit eum      illum provident ea nesciunt harum maxime fuga, autem magni, placeat modi excepturi minima quam sit aut sunt delectus. Consequatur nemo consectetur eius hic delectus soluta amet        esse fugit sequi? Nostrum ea, fugiat, doloribus, odit inventore dignissimos debitis quasi quia iure exercitationem voluptates similique ut ipsa animi magnam ipsum illo? Vero        aspernatur beatae error magni aut numquam, fuga quisquam consequatur fugiat iure ducimus eum illum? Distinctio iure, quasi fugiat adipisci soluta qui vel aliquid expedita harum       ea quod similique eveniet necessitatibus repudiandae vero cupiditate voluptas dolores fuga quaerat magnam perspiciatis corrupti. Possimus, libero. Atque voluptas ex deserunt      pariatur vel similique non adipisci repudiandae voluptates porro facere sapiente iure, quaerat, soluta quos quibusdam fugit tenetur animi dignissimos, a nemo unde explicabo quo       voluptatem. Fugiat dolore, unde dolorum totam accusamus veritatis. In animi saepe ullam, reiciendis, quam eos ipsam aut blanditiis molestias illum id nam quas inventore sit       mollitia, dolore necessitatibus eligendi et fuga doloribus perspiciatis. Sapiente perferendis eum ratione eius ab accusamus placeat dolores tempora facilis, officiis, distinctio     sit suscipit soluta libero exercitationem nesciunt saepe cumque molestias optio animi! Dolorum repellat hic quis ipsam officiis. Laborum placeat deserunt accusantium. Sit totam         maiores dignissimos illo ad eius, aliquam vitae quidem repudiandae tempora molestiae nostrum ducimus deserunt, quaerat alias culpa, dolores sequi ratione numquam?"
-      </p>
-      </div>
-    </article>
-  </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#caracteristicas" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#caracteristicas" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
     <!-- EQUIPO -->
-    <div class="team">
-      <div class="conteiner">
-        <h1 class="p-3 text-center text-danger">NUESTRO EQUIPO</h1>
+    <div id="equipo" class="team">
+      <div class="conteiner p-5">
+        <h1 class="p-3 text-center">NUESTRO EQUIPO</h1>
         <div class="row">
           <div class="col-lg-3">
             <h2 class="text-center pb-3">Miembro 1</h3> 
@@ -127,32 +131,60 @@
           </div>
       </div>
   </div>
-     <!-- TABLA INFORMATIVA -->
-      <section id="info" class="informacion">
-      <div class="conteinerTableInauguracion">
-        <div class="tableTitleInauguracion">LANZAMIENTOS</div>
-        <div class="tableTitleCol">Inauguración del juego</div>
-        <div class="tableItem">19/03/2022</div>
-        <div class="tableTitleCol">Fecha Preventa Token Lmu</div>
-        <div class="tableItem">05/02/2021</div>
-      </div>
-      <div class="conteinerTableMemb">
-        <div class="tableTitleMemb">INFORMACIÓN MEMBRESIA</div>
-        <div class="tableHeader">CARACTERISTICA</div>
-        <div class="tableHeader">MEMBRESIA NORMAL</div>
-        <div class="tableHeader">MEMBRESIA VIP</div>
-        <div class="tableTitleCol">Experiencia</div>
-        <div class="tableItem">100%</div>
-        <div class="tableItem">150%</div>
-        <div class="tableTitleCol">Drop NFT Item</div>
-        <div class="tableItem">2%</div>
-        <div class="tableItem">5%</div>
-        <div class="tableTitleCol">MIXS</div>
-        <div class="tableItem">ESTANDAR</div>
-        <div class="tableItem">+15%</div>
-      </div>
-      <a href="https://api.whatsapp.com/send?phone=543517863161&text=Hola!%20Quisiera%20adquirir%20una%20membres%C3%ADa%20VIP%20por%20favor!%20%E2%AD%90"> <button class="button">ADQUIRIR MEMBRESIA VIP</button></a>
-    </section>
+<!-- TABLA INFO BOOTSTRAP -->
+<div class="tabla p-5">
+<div id="info" class="conteiner-fluid p-3">
+  <table class="table table-responsive table-striped table table-borderless" >
+    <thead  class="table-info">
+      <tr>
+        <th scope="col" colspan="2" class="text-center">LANZAMIENTOS</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td scope="row">INAUGURACIÓN DEL JUEGO</td>
+        <td>19/03/2022<td>
+      </tr>
+      <tr>
+        <td scope="row">FECHA PREVENTA TOKEN</td>
+        <td>05/02/2021<td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="conteiner-fluid p-3">
+  <table class="table table-responsive table-striped table table-borderless" >
+    <thead  class="table-info">
+      <tr>
+        <th scope="col" colspan="3" class="text-center">INFORMACIÓN MEMBRESIA</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">EXPERIENCIA</th>
+        <td>100%</td>
+        <td>150%</td>
+      </tr>
+      <tr>
+        <th scope="row">DROP NFT ITEM</th>
+        <td>2%</td>
+        <td>5%</td>
+      </tr>
+      <tr>
+        <th scope="row">MIXS</th>
+        <td>Estandar</td>
+        <td>+15%</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="d-grid gap-2 col-6 mx-auto m-3">
+  <a href="https://api.whatsapp.com/send?phone=543517863161&text=Hola!%20Quisiera%20adquirir%20una%20membres%C3%ADa%20VIP%20por%20favor!%20%E2%AD%90" class="btn btn-danger btn-sm" role="button" data-bs-toggle="button">ADQUIRIR MEMBRESIA VIP</a>
+</div>
+</div>
+
+
   </body>
   <footer>
     <div class="footerElementos">

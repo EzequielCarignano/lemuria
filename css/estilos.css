@@ -1,9 +1,9 @@
 *{  
   margin: 0%;
-  padding: 0;
+  padding: 0%;
   box-sizing: border-box;
 }
-body {
+*{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 /* NAVBAR */
@@ -11,9 +11,6 @@ a {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
-
-
-
 
 /* INICIO */
 
@@ -56,149 +53,19 @@ a {
   display: flex;
   margin: 3%;
 }
-
-
-
-/* CARACTERISTICAS */
-
-.titulo{
-  text-align: center;
-  font-size: 2rem;
-  padding-top: 3%;
-  margin: 0%;
-  margin-bottom:0%;
+/* TEAM */
+.team{
+  background-image: url(../imagen/bg.jpg);
+} 
+/* TABLA INFO */
+.tabla{
+  background: rgb(167,167,172);
+  background: linear-gradient(90deg, rgba(167,167,172,1) 0%, rgba(193,227,185,0.969625350140056) 49%, rgba(167,167,172,1) 100%);
 }
-
-.caracteristicas{
-  display: flex;
-  flex-direction: column;
+tbody{
+  background-color: #ffffff;
 }
-
-.rightCaracteristica{
-  display: flex;
-  align-items: center;
-
-}
-.leftCaracteristica{
-  display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
-}
-.textoCaracteristica{
-  padding: 3%;
-  text-align: justify;
-}
-.imagenCaracteristica{
-  padding:3%;
-}
-.caracteristicas p{
-  font-style: italic;
-}
-.caracteristicas h2{
-  color: #bb1907;
-}
-
-
-/* EQUIPO */
-
-
-/* INFO */
-
-.informacion{
-  background-color: #d8d7ed;
-  margin-top: 0%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-}
-.conteinerTableInauguracion{
-  background-color: rgb(255, 255, 255);
-  width: 90%;
-  margin: 2% auto;
-  display:grid;
-  grid-template-columns: repeat(2,2fr);
-  grid-auto-rows: 50px;
-  box-shadow: 0 0 20px #333;
-}
-
-.tableTitleInauguracion{
-  display: flex;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  font-weight: bold;
-  color: #bb1907;
-  background-color: #ccc;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.2rem;
-  border: 0.5px solid #333;
-
-}
-
-.conteinerTableMemb{
-  background-color: rgb(255, 255, 255);
-  width: 90%;
-  margin: 3% auto;
-  display: grid;
-  grid-template-columns:repeat(3,2fr);
-  grid-auto-rows: 50px;
-  box-shadow: 0 0 20px #333;
-}
-.tableTitleMemb{
-  display: flex;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  font-weight: bold;
-  color: #bb1907;
-  background-color: #ccc;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.2rem;
-  border: 0.5px solid #333;
-
-}
-.tableHeader{
-  display: flex;
-  font-weight: bold;
-  align-items: center;
-  justify-content: center;
-  border: 0.5px solid #333;
-
-}
-.tableTitleCol{
-  display: flex;
-  border: 0.5px solid #333;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-}
-.tableItem{
-  display: flex;
-  border: 0.5px solid #333;
-  justify-content: center;
-  align-items: center;
-}
-
-.button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2% auto;
-  padding: 10px 110px;
-  border:none;
-  background-color: #fa605d;
-  color: #ffffff;
-  border-radius: 5px;
-  font-size: 1rem;
-}
-.button:hover {
-  background-color: #e21700;
-  color: white;
-}
-
-
-
 /* REGISTRO */
-
 form {
   width: 25%;
   margin-right: auto;
@@ -303,12 +170,6 @@ footer img {
 /* MEDIA QUERIES */
 /*Tablet*/
 @media (min-width: 321px) and (max-width: 768px) and (orientation:portrait) {
-
-  /*MEDIA TABLET NAVBAR */
-  .navbarMenu li {
-    font-size: 0.5rem;
-    padding: 2% 1% 2% 1%;
-  }
   /*MEDIA TABLET INFO */
   .bannerInfo {
     background-image: url(../imagen/game-bg.jpg);
@@ -341,73 +202,6 @@ footer img {
   .videoYoutube {
     margin: 3%;
   }
-/*MEDIA TABLET CARACTERISTICAS*/ 
-.titulo{
-  text-align: center;
-  font-size: 1.5rem;
-  padding-top: 3%;
-  margin: 0%;
-}
-.caracteristicas{
-  flex-direction: column;
-}
-.rightCaracteristica{
-  flex-direction: column;
-}
-.leftCaracteristica{
-  flex-direction: column;
-}
-.textoCaracteristica{
-  padding: 3%;
-  font-size: 0.7rem;
-}
-.imagenCaracteristica{
-  padding:3%;
-} 
-.imagenCaracteristica img{
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-}
-/* MEDIA TABLET EQUIPÓ */
-.equipo{
-  background-image: none;
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat; 
-}
-.equipo .titulo{
-  color: #bb1907;
-  font-size: 1.5rem;
-}
-.miembros{
-  flex-direction: column;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-
-.miembros h2{
-  padding-bottom: 10%;
-  font-size: 0.8rem;
-}
-.miembros p{
-  font-size: 0.8rem;
-  color: #020202;
-}
-.perfil{
-  margin: 0px 0px;
-  height: 100%;
-  width: 40%;
-  justify-content: center;
-}
-.avatarImagen {
-  border-radius: 50%;
-  color: black;
-  margin-bottom: 10%;
-  width: 200px;
-  height: 200px;
-}
 /* MEDIA TABLET REGISTRO */
 form {
   width: 90%;
@@ -419,11 +213,7 @@ form {
 /*movil*/
 /*Portrait*/
 @media (max-width:320px)and (orientation:portrait) {
-  /* MEDIA MOVIL NAV */
-  .navbarMenu li {
-    font-size: 0.4rem;
-    padding: 2% 1% 2% 1%;
-  }
+
   /* MEDIA MOVIL INFO */
   .bannerInfo {
     background-image: url(../imagen/game-bg.jpg);
@@ -458,115 +248,6 @@ form {
   .videoYoutube {
     margin: 3%;
   }
-/* MEDIA MOVIL CARACTERISTICAS */
-.titulo{
-  text-align: center;
-  font-size: 1.5rem;
-  padding-top: 3%;
-  margin: 0%;
-}
-.caracteristicas{
-  flex-direction: column;
-}
-.rightCaracteristica{
-  flex-direction: column;
-}
-.leftCaracteristica{
-  flex-direction: column;
-}
-.textoCaracteristica{
-  padding: 3%;
-  font-size: 0.7rem;
-}
-.imagenCaracteristica{
-  padding:3%;
-} 
-.imagenCaracteristica img{
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-}
-/* MEDIA MOVIL EQUIPÓ */
-.equipo{
-  background-image: none;
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat; 
-}
-.equipo .titulo{
-  color: #bb1907;
-  font-size: 1.5rem;
-}
-.miembros{
-  flex-direction: column;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-.miembros h2{
-  padding-bottom: 10%;
-  font-size: 0.8rem;
-}
-.miembros p{
-  font-size: 0.8rem;
-  color: #020202;
-}
-.perfil{
-  margin: 0px 0px;
-  height: 100%;
-  width: 70%;
-  justify-content: center;
-}
-.avatarImagen {
-  border-radius: 50%;
-  color: black;
-  margin-bottom: 10%;
-  width: 200px;
-  height: 200px;
-}
-/*MEDIA MOVIL TABLA */
-.informacion{
-  padding-top: 10%;
-  padding-bottom: 10%;
-}
-.conteinerTableInauguracion{
-  background-color: rgba(255, 255, 255);
-  margin: 1% auto 10% ;
-  box-shadow: 0 0 10px #333;
-  font-size: 0.7rem;
-}
-.tableTitleInauguracion{
-  font-size: 1rem;
-}
-.conteinerTableMemb{
-  margin: 1% auto 10%;
-  font-size: 0.7rem;
-}
-.tableTitleMemb{
-  font-size: 1rem;
-  border: 0.5px solid #333;
-}
-.tableHeader{
-  font-size: 0.4rem;
-}
-.tableTitleCol{
-  font-size: 0.45rem;
-}
-.tableItem{
-  font-size: 0.4rem;
-}
-.button {
-  width: 60%;
-  margin: 2% auto;
-  padding: 10px 10px;
-  border-radius: 5px;
-  font-size: .6rem;
-}
-.button:hover {
-  background-color: #e21700;
-  color: white;
-}
-
 /* MEDIA MOVIL REGISTRO */
 form {
   width: 90%;
