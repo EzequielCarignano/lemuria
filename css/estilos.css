@@ -11,9 +11,7 @@ a {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
-
 /* INICIO */
-
 .bannerInfo {
   background-image: url(../imagen/game-bg.jpg);
   height: 100%;
@@ -29,7 +27,6 @@ a {
   height: 100%;
   width: 100%;
 }
-
 .info {
   display: flex;
   background-image: url(../imagen/bg-2.jpg);
@@ -40,14 +37,12 @@ a {
   flex-direction:row ;
   margin-bottom: 0%;
 }
-
 .textVideo {
   color: rgb(247, 247, 247);
   font-size: 1.9rem;
   margin: 3%;
   text-align: justify;
   width: 100%;
-
 }
 .videoYoutube {
   display: flex;
@@ -94,20 +89,17 @@ form {
   margin-right: auto;
   margin-bottom: 20px;
 }
-
 .newsletter {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
 }
-
 .selectPais {
   display: block;
   width: 50%;
   margin-bottom: 20px;
 }
-
 .formTextArea {
   width: 100%;
   border: 3px solid #ccc;
@@ -119,7 +111,6 @@ form {
   margin-right: auto;
   margin-bottom: 20px;
 }
-
 .btnSubmit {
   display: block;
   margin-left: auto;
@@ -135,12 +126,7 @@ form {
   background: #76a9e4;
 }
 
-form a {
-  color: #e21700;
-}
-
 /* FOOTER */
-
 footer {
   background-color: #212324;
   text-align: center;
@@ -148,25 +134,21 @@ footer {
   display: flex;
   flex-direction: column;
 }
-
 footer img {
   height: 3%;
   width: 3%;
   margin-left: 2%;
 }
-
 .footerElementos {
   color: rgb(255, 255, 255);
   text-align: center;
   padding: 2%;
   margin: 0%;
 }
-
 .footerLinks {
   font-size: 1rem;
   margin-left: 3%;
 }
-
 /* MEDIA QUERIES */
 /*Tablet*/
 @media (min-width: 321px) and (max-width: 768px) and (orientation:portrait) {
@@ -194,14 +176,9 @@ footer img {
   }
   .textVideo {
     color: rgb(247, 247, 247);
-    font-size: 1.2rem;
-    margin: 3%;
-    text-align: justify;
-  
-  }
-  .videoYoutube {
-    margin: 3%;
-  }
+    font-size: 1rem;
+    text-align: justify;  
+  } 
 /* MEDIA TABLET REGISTRO */
 form {
   width: 90%;
@@ -213,7 +190,6 @@ form {
 /*movil*/
 /*Portrait*/
 @media (max-width:320px)and (orientation:portrait) {
-
   /* MEDIA MOVIL INFO */
   .bannerInfo {
     background-image: url(../imagen/game-bg.jpg);
@@ -240,13 +216,8 @@ form {
   }
   .textVideo {
     color: rgb(247, 247, 247);
-    font-size: 0.5rem;
-    margin: 3%;
-    text-align: justify;
-  
-  }
-  .videoYoutube {
-    margin: 3%;
+    font-size: 0.8rem;
+    text-align: justify; 
   }
 /* MEDIA MOVIL REGISTRO */
 form {
