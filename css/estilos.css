@@ -173,6 +173,12 @@ footer img {
     width: 100%;
     height: 100%;
   }
+  .infoBg{
+    background-image: url(../imagen/bg_container.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .videoYoutube {
     width: 90%;
   }
@@ -212,6 +218,12 @@ form {
     padding-bottom: 100px;
     width: 100%;
     height: 100%;
+  }
+  .infoBg{
+    background-image: url(../imagen/bg_container.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .videoYoutube {
     width: 90%;
