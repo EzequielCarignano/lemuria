@@ -1,0 +1,70 @@
+tbody {
+	background-color: #ffffff;
+}
+form {
+	width: 25%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	margin-bottom: 5%;
+    a{
+        color: black;
+    }
+}
+.formLabel {
+	font-size: 1rem;
+	font-weight: bold;
+	display: block;
+	padding: 2%;
+	width: 100%;
+	padding-left: 0px;
+}
+.formInput {
+	padding: 2%;
+	font-size: 0.8rem;
+	font-style: italic;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.selectSexo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+.newsletter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+.selectPais {
+	display: block;
+	width: 50%;
+	margin-bottom: 20px;
+}
+.formTextArea {
+	width: 100%;
+	border: 3px solid #ccc;
+	box-sizing: border-box;
+}
+.termsRegistro {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+.btnSubmit {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 3rem;
+	margin-bottom: 0%;
+	background: #1668c4;
+	color: #ffffff;
+	border: none;
+	&:hover {
+		background: #76a9e4;
+	}
+}

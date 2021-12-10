@@ -118,6 +118,7 @@ form {
 .btnSubmit:hover {
   background: #76a9e4;
 }
+/* PARTNERS */
 .partners{
   display: flex;
   width: 100%;
@@ -179,6 +180,7 @@ footer img {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
   .videoYoutube {
     width: 90%;
   }
@@ -224,6 +226,9 @@ form {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .infoText{
+    text-align: center;
   }
   .videoYoutube {
     width: 90%;
