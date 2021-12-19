@@ -1,0 +1,7 @@
+REGISTRO DE CAMBIOS Y MEJORAS EN EL SEO DE LA WEB:
+
+- Agregue Meta Keywords
+- Agrege Meta Description
+- Ordene la jerarquia (h1/h2/h3)
+- Ordene las imagenes para mejorar la navegación.
+- Converti las imagenes de la sección "Partners" a png y les reduci el tamaño de forma nativa.
