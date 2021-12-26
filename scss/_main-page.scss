@@ -1,0 +1,46 @@
+/* INICIO */
+.bannerInfo {
+	background-image: url(../imagen/bg/game-bg.jpg);
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.logoBg {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10%;
+	height: 80%;
+	width: 82%;
+}
+/* INFORMACIÓN VIDEO Y TEXTO */
+.videoYoutube {
+	width: 50%;
+	margin: 0 auto;
+}
+.infoText {
+	text-align: justify;
+}
+.infoBg {
+	background-image: url(../imagen/bg/bg_container.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* TEAM */
+.team {
+	background-image: url(../imagen/bg/bg.jpg);
+	background-size: cover;
+}
+.tabla {
+	background: rgb(230,230,230);
+	background: radial-gradient(circle, rgba(230,230,230,1) 0%, rgba(238,238,238,1) 2%, rgba(184,182,182,1) 66%);
+}
+/* PARTNERS */
+	.partners {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
